@@ -3,7 +3,7 @@
 #include<unicode/ustdio.h>
 
 int main(int argc, char** argv){
-	UChar32 c;
+    UChar32 c;
     UFILE *in = u_finit(stdin, NULL, NULL);
     UFILE *out = u_get_stdout();
     const char *name;
